@@ -195,6 +195,7 @@ ul {
   border-radius: 20px;
   background: #fe018a;
   cursor: pointer;
+  min-height: 580px;
 }
 .testimonials-box:hover {
   background: #e00278;
@@ -206,9 +207,6 @@ ul {
 .testimonials-box .rate-img img {
   width: 130px;
   margin: auto;
-}
-.testimonials-box {
-  min-height: 500px;
 }
 .testimonials-box p {
   font-size: 18px;
@@ -270,13 +268,20 @@ ul {
   font-weight: 700;
   margin-bottom: 0px;
 }
+.sortable-wrap .price-wrap .price-table .price-annual {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 30px;
+}
 .sortable-wrap .price-wrap .price-table h1 {
   font-size: 44px;
   font-family: Inter-Bold;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
+  margin-right: 10px;
 }
-.sortable-wrap .price-wrap .price-table h1 span {
+.sortable-wrap .price-wrap .price-table span {
   font-size: 20px;
 }
 .sortable-wrap .price-wrap .price-btn p {
@@ -432,7 +437,6 @@ ul {
 @media only screen and (max-width: 1200px) {
   .header-section {
     position: relative;
-    background-color: #000000e3;
   }
 }
 @media only screen and (max-width: 1150px) {
@@ -458,6 +462,15 @@ ul {
   }
   .head-title p {
     font-size: 25px;
+  }
+  .header-section .sec-img h2 {
+    font-size: 26px;
+  }
+  .header-section .sec-img p {
+    font-size: 20px;
+  }
+  .sign-up {
+    font-size: 20px;
   }
   .testimonials-box {
     min-height: 400px;
@@ -504,7 +517,7 @@ ul {
     font-size: 32px;
   }
   .header-section {
-    padding: 10px 0px 18px;
+    padding: 10px 0px;
   }
   .header-section .wrap-btn a {
     width: 130px;
@@ -582,6 +595,16 @@ ul {
     font-size: 18px;
     max-width: 145px;
     padding: 7px 5px;
+  }
+  .sortable-wrap {
+    background-color: #fe018a;
+    padding: 40px 0px;
+  }
+  .sortable-wrap .price-wrap .price-btn p {
+    font-size: 30px;
+  }
+  .sortable-wrap .price-wrap .price-table .price-annual {
+    display: block;
   }
   .brand-logo {
     width: 120px;

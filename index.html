@@ -42,11 +42,8 @@
               >
             </div>
             <div class="sec-img mobile-view">
-              <img
-                src="img/jeanette-jenkins2.webp"
-                alt="jeanette-jenkins2"
-                class="img-fluid"
-              />
+              <h2>JEANETTE JENKINS</h2>
+              <p>Healthy Living Club</p>
             </div>
           </div>
         </div>
@@ -56,7 +53,7 @@
     <!-- banner-section -->
     <section class="banner-section">
       <div class="banner-inner-img">
-        <img src="img/sammer-bg.png" alt="banner" class="img-fluid" />
+        <img src="img/PNG image.png" alt="banner" class="img-fluid" />
       </div>
       <div class="banner-dec-text">
         <h2>SUMMER SALE!</h2>
@@ -70,11 +67,17 @@
         <div class="price-wrap">
           <div class="price-table">
             <p>REGULAR PRICE</p>
-            <h1><s>$239.88</s> <span>Annual Membership</span></h1>
+            <div class="price-annual">
+              <h1><s>$239.88</s></h1>
+              <span>Annual Membership</span>
+            </div>
           </div>
           <div class="price-table">
             <p>NOW</p>
-            <h1>$119.94 <span>Limited Time Offer</span></h1>
+            <div class="price-annual">
+              <h1>$119.94</h1>
+              <span>Limited Time Offer</span>
+            </div>
           </div>
           <div class="price-btn">
             <p>This is Our <strong>LOWEST</strong> price of the year.</p>
@@ -548,7 +551,7 @@
     <script>
       $(".testimonials-slider").owlCarousel({
         loop: true,
-        autoplay: false,
+        autoplay: true,
         margin: 25,
         autoplayTimeout: 2000, //2000ms = 2s;
         autoplayHoverPause: true,
@@ -573,7 +576,7 @@
     <script>
       $(".food-img").owlCarousel({
         loop: true,
-        autoplay: false,
+        autoplay: true,
         margin: 5,
         autoplayTimeout: 2000, //2000ms = 2s;
         autoplayHoverPause: true,
