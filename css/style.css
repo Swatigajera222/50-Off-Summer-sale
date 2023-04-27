@@ -143,19 +143,21 @@ ul {
   background-color: #d6d8d8;
 }
 .bootcamp-section .head-title {
-  text-align: start;
-  margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .bootcamp-section .head-title h1 {
   font-size: 56px;
-  color: #000;
+  color: #fe018a;
+  margin-bottom: 0px;
+  margin-top: 20px;
 }
 .bootcamp-section .head-title p {
-  color: #fe018a;
+  color: #000;
   text-align: center;
   font-size: 56px;
   font-family: Inter-Bold;
-  margin-top: 20px;
+  margin-top: -5px;
 }
 .bootcamp-section ul {
   /* list-style-image: url(..//img/check-solid.svg); */
@@ -185,7 +187,7 @@ ul {
 /* END bootcamp-section */
 /* testimonials-section */
 .testimonials-section {
-  margin: 70px 0px;
+  margin-bottom: 70px;
 }
 .testimonials-section .head-title {
   color: #fff;
@@ -270,39 +272,48 @@ ul {
   color: #ffffff;
 }
 .sortable-wrap .price-wrap .price-table p {
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   margin-bottom: 0px;
 }
 .sortable-wrap .price-wrap .price-table .price-annual {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .sortable-wrap .price-wrap .price-table h1 {
-  font-size: 44px;
   font-family: Inter-Bold;
   text-align: center;
   margin-bottom: 0px;
   margin-right: 10px;
+  font-size: 50px;
+  font-weight: 600;
 }
 .sortable-wrap .price-wrap .price-table span {
-  font-size: 20px;
-  font-weight: 600;
+  display: inline-block;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 .sortable-wrap .price-wrap .price-btn p {
-  font-size: 40px;
-  font-weight: 600;
+  margin-top: 30px;
+  font-weight: 100;
+  font-size: 28px;
+}
+.sortable-wrap .price-wrap .price-btn p b {
+  font-weight: bold;
 }
 .sortable-wrap .price-wrap .price-btn a {
-  font-size: 45px;
-  font-family: Inter-Bold;
   color: rgb(255, 255, 255);
   font-weight: 600;
-  background-color: #2bc43d;
-  padding: 15px 40px;
-  border-radius: 10px;
+  background-color: rgb(43, 196, 61);
+  font-size: 44px;
+  box-sizing: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 25px 40px;
+  text-transform: uppercase;
 }
 .sortable-wrap .price-wrap .price-btn a:hover {
   background-color: #14b327;
@@ -322,7 +333,9 @@ ul {
   position: relative;
   z-index: 9;
 }
-
+.register-section .food-img .owl-nav {
+  display: none;
+}
 /* story-section */
 .story-section .head-title {
   margin-bottom: 40px;
@@ -612,6 +625,7 @@ ul {
   }
   .sortable-wrap .price-wrap .price-table .price-annual {
     display: block;
+    margin-bottom: 20px;
   }
   .brand-logo {
     width: 120px;
