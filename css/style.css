@@ -480,7 +480,7 @@ ul {
     font-size: 32px;
   }
   .header-section {
-    padding: 10px 0px;
+    padding: 10px 0px 18px;
   }
   .header-section .wrap-btn a {
     width: 130px;
@@ -594,11 +594,20 @@ ul {
   .sortable-wrap iframe {
     height: 250px;
   }
+  .testimonials-section .testimonials-slider .owl-nav button {
+    top: 35%;
+    height: 30px;
+    width: 30px;
+  }
   .testimonials-section .testimonials-slider .owl-nav .owl-prev {
     left: -10px;
   }
   .testimonials-section .testimonials-slider .owl-nav .owl-next {
     right: -10px;
+  }
+  .testimonials-section .testimonials-slider .owl-nav button span {
+    font-size: 40px;
+    margin-top: -7px;
   }
   .testimonials-box {
     padding: 20px;
