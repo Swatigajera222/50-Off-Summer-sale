@@ -195,7 +195,7 @@ ul {
   border-radius: 20px;
   background: #fe018a;
   cursor: pointer;
-  min-height: 580px;
+  min-height: 530px;
 }
 .testimonials-box:hover {
   background: #e00278;
@@ -209,7 +209,7 @@ ul {
   margin: auto;
 }
 .testimonials-box p {
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
