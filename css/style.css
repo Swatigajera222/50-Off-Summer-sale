@@ -140,6 +140,7 @@ ul {
 /* bootcamp-section */
 .bootcamp-section {
   padding-top: 40px;
+  background-color: #d6d8d8;
 }
 .bootcamp-section .head-title {
   text-align: start;
@@ -157,8 +158,8 @@ ul {
   margin-top: 20px;
 }
 .bootcamp-section ul {
-  list-style-image: url(..//img/check-solid.svg);
-  padding-left: 30px;
+  /* list-style-image: url(..//img/check-solid.svg); */
+  padding-left: 00px;
 }
 .bootcamp-sev {
   padding-right: 10px;
@@ -166,11 +167,16 @@ ul {
   padding-top: 20px;
 }
 .bootcamp-section ul li {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 18px;
-  background: #fbfbfb;
+  /* background: #fbfbfb; */
   padding: 6px 10px;
   border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.bootcamp-section ul li img {
+  margin-right: 15px;
 }
 .bootcamp-section ul li strong {
   color: #000;
@@ -179,7 +185,7 @@ ul {
 /* END bootcamp-section */
 /* testimonials-section */
 .testimonials-section {
-  padding: 70px 0px 0px;
+  margin: 70px 0px;
 }
 .testimonials-section .head-title {
   color: #fff;
@@ -283,6 +289,7 @@ ul {
 }
 .sortable-wrap .price-wrap .price-table span {
   font-size: 20px;
+  font-weight: 600;
 }
 .sortable-wrap .price-wrap .price-btn p {
   font-size: 40px;
