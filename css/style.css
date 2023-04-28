@@ -169,37 +169,40 @@ ul {
 /* END bootcamp-section */
 /* testimonials-section */
 .testimonials-section {
+  padding: 70px 0px;
   margin-bottom: 70px;
+  background: #fe018a;
 }
 .testimonials-section .head-title {
   color: #fff;
   margin-bottom: 40px;
 }
 .testimonials-section .head-title h1 {
-  color: #000;
+  color: #ffffff;
 }
 .testimonials-box {
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   color: #ffffff;
-  padding: 30px;
+  padding: 0px 90px;
   border-radius: 20px;
   background: #fe018a;
   cursor: pointer;
-  min-height: 530px;
+  text-align: center;
+  /* min-height: 530px; */
 }
-.testimonials-box:hover {
+/* .testimonials-box:hover {
   background: #e00278;
-}
+} */
 
 .testimonials-box .rate-img {
   margin-top: 10px;
 }
 .testimonials-box .rate-img img {
-  width: 130px;
+  width: 300px;
   margin: auto;
 }
 .testimonials-box p {
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -208,16 +211,20 @@ ul {
   margin-bottom: 10px;
 }
 .testimonials-box h2 {
-  font-size: 20px;
+  font-size: 28px;
   font-family: Inter-Bold;
   text-align: center;
 }
 .testimonials-section .testimonials-slider .owl-nav {
   display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 .testimonials-section .testimonials-slider .owl-nav button {
   background-color: rgb(255, 255, 255);
-  position: absolute;
+  /* position: absolute; */
   top: 45%;
   border-radius: 50%;
   height: 40px;
@@ -303,6 +310,46 @@ ul {
   border-radius: 20px;
   margin-top: 50px;
 }
+/* annual-membership */
+.annual-membership {
+  padding: 70px 0px;
+  background-color: #fe018a;
+}
+.annual-membership .annual-membership-inner {
+  text-align: center;
+}
+.annual-membership .annual-membership-inner h2 {
+  font-size: 115px;
+  color: #ffffff;
+  margin-bottom: 0px;
+  font-family: Inter-Bold;
+  text-transform: uppercase;
+}
+.annual-membership .annual-membership-inner h3 {
+  font-size: 60px;
+  color: #000;
+  text-align: center;
+  font-size: 48px;
+  font-family: Inter-Bold;
+  margin-top: -5px;
+}
+.annual-membership .annual-membership-inner h3 span {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.annual-membership .annual-membership-inner .membership-btn a {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  background-color: rgb(43, 196, 61);
+  font-size: 44px;
+  border-radius: 15px;
+  padding: 20px 50px;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+.annual-membership .annual-membership-inner .membership-btn a:hover {
+  background-color: #14b327;
+}
 /* register-section */
 .register-section {
   text-align: center;
@@ -351,35 +398,33 @@ ul {
 }
 .subscribe-dec {
   color: #fff;
-}
-.subscribe-dec span {
-  font-size: 20px;
-  font-family: Inter-Bold;
+  text-align: center;
 }
 .subscribe-dec h1 {
-  font-size: 70px;
+  font-size: 110px;
   text-transform: uppercase;
   font-family: Inter-Bold;
   margin-bottom: 0px;
 }
 .subscribe-dec h2 {
   color: #fe018a;
-  font-size: 115px;
+  font-size: 125px;
   font-family: Inter-Bold;
   margin-bottom: 0px;
 }
 .subscribe-dec h3 {
-  font-size: 50px;
+  font-size: 55px;
   font-family: Inter-Bold;
   margin-bottom: 0px;
 }
 .subscribe-dec p {
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 40px;
   margin-bottom: 20px;
   color: #fe018a;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-family: Inter-Bold;
 }
 .subscribe-dec p span {
