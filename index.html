@@ -16,20 +16,25 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-3 col-6">
-            <div class="brand-logo">
-              <img src="img/logo.webp" alt="logo" class="img-fluid" />
-            </div>
+            <a href="#">
+              <div class="brand-logo">
+                <img src="img/logo.webp" alt="logo" class="img-fluid" />
+              </div>
+            </a>
           </div>
           <div class="col-md-6 col-6">
             <div class="sec-img web-view">
-              <h2>JEANETTE JENKINS</h2>
-              <p>Healthy Living Club</p>
+              <img
+                src="img/jeanette-jenkins2.webp"
+                alt="jeanette-jenkins2"
+                class="img-fluid"
+              />
             </div>
             <div class="wrap-btn mobile-view">
               <a
                 href="https://thehollywoodtrainerclub.com/sign-up/"
                 class="sign-up btn"
-                >Join Now</a
+                >Sign Up</a
               >
             </div>
           </div>
@@ -38,12 +43,15 @@
               <a
                 href="https://thehollywoodtrainerclub.com/sign-up/"
                 class="sign-up btn"
-                >Join Now</a
+                >Sign Up</a
               >
             </div>
             <div class="sec-img mobile-view">
-              <h2>JEANETTE JENKINS</h2>
-              <p>Healthy Living Club</p>
+              <img
+                src="img/jeanette-jenkins2.webp"
+                alt="jeanette-jenkins2"
+                class="img-fluid"
+              />
             </div>
           </div>
         </div>
@@ -52,16 +60,11 @@
     <!-- END header-section -->
     <!-- banner-section -->
     <section class="banner-section">
-      <div class="banner-inner-img">
-        <img
-          src="img/Summer Sale  (1920 × 1008 px).png"
-          alt="banner"
-          class="img-fluid"
-        />
+      <div class="banner-inner-img bg-web">
+        <img src="img/Summer-web.png" alt="banner" class="img-fluid" />
       </div>
-      <div class="banner-dec-text">
-        <h2>SUMMER SALE!</h2>
-        <h4><span>50% OFF</span> ANNUAL MEMBERSHIP</h4>
+      <div class="banner-inner-img bg-mobile">
+        <img src="img/Summer-mobile.png" alt="banner" class="img-fluid" />
       </div>
     </section>
     <!-- END banner-section -->
@@ -85,7 +88,7 @@
           </div>
           <div class="price-btn">
             <p>This is Our <b>LOWEST</b> price of the year.</p>
-            <a href="#">Join Now</a>
+            <a href="https://thehollywoodtrainerclub.com/sign-up/">Join Now</a>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -109,6 +112,7 @@
         </div>
       </div>
     </section>
+    <!-- END sortable-wrap-section -->
     <!-- REGISTER NOW -->
     <section class="register-section">
       <div class="food-img owl-carousel">
@@ -120,7 +124,7 @@
       </div>
     </section>
     <!-- END REGISTER NOW -->
-    <!-- END sortable-wrap-section -->
+
     <!-- Testimonials -->
     <section class="testimonials-section section-gab">
       <div class="container">
@@ -666,7 +670,7 @@
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/wow.min.js"></script>
-    <!-- testimonial -->
+    <!-- testimonial-slider -->
     <script>
       $(".testimonials-slider").owlCarousel({
         loop: true,
@@ -691,7 +695,8 @@
         },
       });
     </script>
-    <!-- food-img -->
+    <!-- END_testimonial-slider -->
+    <!-- food-img-slider -->
     <script>
       $(".food-img").owlCarousel({
         loop: true,
@@ -702,7 +707,7 @@
         nav: true,
         responsive: {
           0: {
-            items: 3,
+            items: 2,
           },
           767: {
             items: 3,
@@ -716,9 +721,11 @@
         },
       });
     </script>
+    <!-- END-food-img-slider -->
     <!-- wow-animation -->
     <script>
       new WOW().init();
     </script>
+    <!-- END-wow-animation -->
   </body>
 </html>

@@ -65,14 +65,13 @@ ul {
   padding: 10px 0px;
   display: inline-block;
   background-color: #fe018a;
-  border-color: #fe018a;
   color: #fff;
   width: 100%;
   text-transform: uppercase;
 }
 .sign-up:hover {
   color: #fff;
-  background-color: #fb4570;
+  background-color: #e4017c;
 }
 .web-view {
   display: block;
@@ -83,25 +82,24 @@ ul {
 /* Header-section */
 .header-section {
   padding: 20px 0px;
-  /* background-color: #00000069; */
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.54);
   z-index: 9;
   width: 100%;
   /* position: absolute; */
 }
+.header-section .brand-logo {
+  width: 200px;
+}
+.header-section .brand-logo img {
+  width: 100%;
+}
 .header-section .sec-img {
   text-align: center;
+  width: 80%;
+  margin: auto;
 }
-.header-section .sec-img h2 {
-  color: #fff;
-  margin-bottom: 0px;
-  font-weight: bold;
-  font-size: 35px;
-}
-.header-section .sec-img p {
-  font-size: 23px;
-  color: rgb(43, 196, 61);
-  margin-bottom: 0px;
+.header-section .sec-img img {
+  width: 100%;
 }
 .header-section .wrap-btn {
   text-align: end;
@@ -112,30 +110,15 @@ ul {
 /* banner-section */
 .banner-section {
   position: relative;
-  /* height: 100vh; */
 }
 .banner-section .banner-inner-img img {
   width: 100%;
 }
-.banner-section .banner-dec-text {
-  position: absolute;
-  bottom: 30px;
-  width: 100%;
-  text-align: center;
-  color: #fff;
+.banner-section .bg-web {
+  display: block;
+}
+.banner-section .bg-mobile {
   display: none;
-}
-.banner-section .banner-dec-text h2 {
-  font-size: 110px;
-  font-weight: bold;
-  color: rgb(43, 196, 61);
-}
-.banner-section .banner-dec-text h4 {
-  font-size: 60px;
-}
-.banner-section .banner-dec-text h4 span {
-  font-weight: bold;
-  font-size: 80px;
 }
 /* bootcamp-section */
 .bootcamp-section {
@@ -171,7 +154,6 @@ ul {
 .bootcamp-section ul li {
   font-size: 20px;
   margin-bottom: 18px;
-  /* background: #fbfbfb; */
   padding: 6px 10px;
   border-radius: 10px;
   display: flex;
@@ -230,7 +212,6 @@ ul {
   font-family: Inter-Bold;
   text-align: center;
 }
-
 .testimonials-section .testimonials-slider .owl-nav {
   display: block;
 }
@@ -265,7 +246,7 @@ ul {
 /* sortable-wrap */
 .sortable-wrap {
   background-color: #fe018a;
-  padding: 70px 0px;
+  padding: 40px 0px;
 }
 .sortable-wrap .price-wrap {
   text-align: center;
@@ -312,7 +293,7 @@ ul {
   font-size: 44px;
   box-sizing: inset 0 1px 0 rgba(255, 255, 255, 0.2);
   border-radius: 15px;
-  padding: 25px 40px;
+  padding: 20px 50px;
   text-transform: uppercase;
 }
 .sortable-wrap .price-wrap .price-btn a:hover {
@@ -324,16 +305,12 @@ ul {
 }
 /* register-section */
 .register-section {
-  /* background-image: url(..//img/banner2.png); */
-  padding: 70px 0px 0px;
   text-align: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
   z-index: 9;
 }
-.register-section .food-img .owl-nav {
+.register-section .food-img .owl-nav,
+.register-section .food-img .owl-dots {
   display: none;
 }
 /* story-section */
@@ -407,7 +384,7 @@ ul {
 }
 .subscribe-dec p span {
   color: #fff;
-  margin-left: 5px;
+  margin-left: 0px;
   margin-right: 10px;
 }
 .subscribe-dec a {
@@ -483,12 +460,6 @@ ul {
   .head-title p {
     font-size: 25px;
   }
-  .header-section .sec-img h2 {
-    font-size: 26px;
-  }
-  .header-section .sec-img p {
-    font-size: 20px;
-  }
   .sign-up {
     font-size: 20px;
   }
@@ -532,9 +503,14 @@ ul {
   .web-view {
     display: none;
   }
-
+  .banner-section .bg-web {
+    display: none;
+  }
+  .banner-section .bg-mobile {
+    display: block;
+  }
   .bootcamp-section .head-title p {
-    font-size: 32px;
+    font-size: 28px;
   }
   .header-section {
     padding: 10px 0px;
@@ -553,13 +529,19 @@ ul {
   .bootcamp-section .head-title h1,
   .head-title h1 {
     font-size: 32px;
+    margin-top: 0px;
   }
-
+  .testimonials-section .head-title {
+    margin-bottom: 20px;
+  }
+  .bootcamp-section ul li img {
+    margin-right: 10px;
+  }
   .head-title p {
     font-size: 20px;
   }
   .bootcamp-section ul li {
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 14px;
   }
   .sortable-wrap iframe {
@@ -598,7 +580,7 @@ ul {
     padding: 40px 0px 0px;
   }
   .testimonials-section {
-    padding: 40px 0px 40px;
+    padding: 40px 0px 0px;
   }
   .story-section .stroy-wrap:hover {
     box-shadow: none;
@@ -608,6 +590,14 @@ ul {
   .story-section .stroy-wrap h4 {
     font-size: 21px;
     padding: 0px 0px 40px;
+  }
+  .subscribe-dec p span {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .subscribe-section {
+    padding: 70px 0px;
+    margin-top: 0px;
   }
 }
 @media only screen and (max-width: 525px) {
@@ -631,7 +621,14 @@ ul {
     width: 120px;
   }
   .header-section .sec-img {
-    width: 70%;
+    width: 90%;
+  }
+  .header-section .brand-logo {
+    width: 170px;
+  }
+  .sortable-wrap .price-wrap .price-btn a {
+    font-size: 35px;
+    padding: 15px 30px;
   }
   .bootcamp-sev {
     padding-bottom: 0px;
@@ -640,14 +637,10 @@ ul {
   .header-section .sec-img {
     margin-top: 10px;
   }
-
-  .bootcamp-section .head-title h1,
-  .head-title h1 {
-    font-size: 28px;
-  }
-
   .sortable-wrap iframe {
-    height: 250px;
+    width: 100%;
+    height: 205px;
+    border-radius: 10px;
   }
   .testimonials-section .testimonials-slider .owl-nav button {
     top: 35%;
@@ -672,7 +665,7 @@ ul {
     margin-bottom: 20px;
   }
   .testimonials-section {
-    padding: 40px 0px 40px;
+    padding: 40px 0px 0px;
   }
 
   .story-section .head-title {
