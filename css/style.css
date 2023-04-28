@@ -394,6 +394,9 @@ ul {
   padding: 80px 0px;
   margin-top: 70px;
   background-image: url(..///img/subscribe.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .subscribe-dec {
   color: #fff;
@@ -463,16 +466,10 @@ ul {
   text-align: end;
 }
 /*  Responsive*/
-@media only screen and (max-width: 1200px) and (min-width: 991px) {
+
+@media only screen and (max-width: 1400px) {
   .subscribe-dec h1 {
-    font-size: 50px;
-  }
-  .subscribe-dec h2 {
-    color: #fe018a;
-    font-size: 95px;
-  }
-  .subscribe-dec h3 {
-    font-size: 40px;
+    font-size: 80px;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -508,7 +505,7 @@ ul {
     font-size: 20px;
   }
   .testimonials-box {
-    min-height: 400px;
+    padding: 0px;
   }
   .border-two {
     margin-bottom: 0px;
@@ -518,7 +515,12 @@ ul {
     border-radius: 20px;
     height: 420px;
   }
-
+  .annual-membership .annual-membership-inner h2 {
+    font-size: 80px;
+  }
+  .annual-membership .annual-membership-inner h3 {
+    font-size: 40px;
+  }
   .story-section .stroy-wrap {
     padding: 0px;
   }
@@ -591,7 +593,15 @@ ul {
   .sortable-wrap iframe {
     height: 300px;
   }
-
+  .annual-membership {
+    padding: 40px 0px;
+  }
+  .annual-membership .annual-membership-inner h2 {
+    font-size: 60px;
+  }
+  .annual-membership .annual-membership-inner h3 {
+    font-size: 30px;
+  }
   .story-section .stroy-wrap h4 {
     font-size: 14px;
     padding: 0px 0px;
@@ -643,6 +653,18 @@ ul {
     padding: 70px 0px;
     margin-top: 0px;
   }
+  .annual-membership .annual-membership-inner h2 {
+    font-size: 45px;
+  }
+  .annual-membership .annual-membership-inner h3 {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+  .annual-membership .annual-membership-inner .membership-btn a {
+    font-size: 30px;
+    padding: 15px 30px;
+    margin-top: 20px;
+  }
 }
 @media only screen and (max-width: 525px) {
   .sign-up {
@@ -674,6 +696,7 @@ ul {
     font-size: 35px;
     padding: 15px 30px;
   }
+
   .bootcamp-sev {
     padding-bottom: 0px;
     padding-top: 0px;
@@ -702,11 +725,18 @@ ul {
     margin-top: -7px;
   }
   .testimonials-box {
-    padding: 20px;
+    padding: 0px;
   }
   .testimonials-box p {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 18px;
+  }
+  .testimonials-box .rate-img img {
+    width: 200px;
+  }
+  .testimonials-box h2 {
+    font-size: 22px;
   }
   .testimonials-section {
     padding: 40px 0px 0px;
