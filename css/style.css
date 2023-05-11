@@ -138,14 +138,13 @@ ul {
 }
 .banner-section .bg-mobile a {
   position: absolute;
-  
+
   font-family: Horizon;
   background-color: #ff3392;
   color: #fff;
   border: none;
   border-radius: 80px;
   text-transform: uppercase;
- 
 
   right: 30px;
   bottom: 30px;
