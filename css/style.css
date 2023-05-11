@@ -116,9 +116,42 @@ ul {
 }
 .banner-section .bg-web {
   display: block;
+  position: relative;
+}
+.banner-section .bg-web a {
+  position: absolute;
+  right: 50px;
+  bottom: 40px;
+  font-family: Horizon;
+  background-color: #ff3392;
+  color: #fff;
+  border: none;
+  border-radius: 80px;
+  font-size: 44px;
+  text-transform: uppercase;
+  padding: 20px 35px;
+  line-height: 40px;
 }
 .banner-section .bg-mobile {
   display: none;
+  position: relative;
+}
+.banner-section .bg-mobile a {
+  position: absolute;
+  
+  font-family: Horizon;
+  background-color: #ff3392;
+  color: #fff;
+  border: none;
+  border-radius: 80px;
+  text-transform: uppercase;
+ 
+
+  right: 30px;
+  bottom: 30px;
+  font-size: 35px;
+  padding: 15px 30px;
+  line-height: 30px;
 }
 /* bootcamp-section */
 .bootcamp-section {
@@ -491,6 +524,13 @@ ul {
     width: 80%;
     margin: auto;
   }
+  .banner-section .bg-web a {
+    right: 30px;
+    bottom: 30px;
+    font-size: 35px;
+    padding: 15px 30px;
+    line-height: 30px;
+  }
   .bootcamp-section .head-title {
     text-align: center;
     margin-bottom: 30px;
@@ -549,6 +589,7 @@ ul {
   .web-view {
     display: none;
   }
+
   .banner-section .bg-web {
     display: none;
   }
@@ -644,6 +685,13 @@ ul {
   .story-section .stroy-wrap h4 {
     font-size: 21px;
     padding: 0px 0px 40px;
+  }
+  .banner-section .bg-mobile a {
+    font-size: 14px;
+    padding: 10px 20px;
+    line-height: 16px;
+    right: 10px;
+    bottom: 20px;
   }
   .subscribe-dec p span {
     margin-left: 0px;

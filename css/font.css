@@ -18,3 +18,7 @@
   font-family: RobotoSlab-Bold;
   src: url(..//fonts/RobotoSlab-Bold.ttf);
 }
+@font-face {
+  font-family: Horizon;
+  src: url(..//fonts/horizon.otf);
+}
