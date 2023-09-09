@@ -22,3 +22,7 @@
   font-family: Horizon;
   src: url(..//fonts/horizon.otf);
 }
+@font-face {
+  font-family: Pandora;
+  src: url(..//fonts/Pandora\ Regular.ttf);
+}
