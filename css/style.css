@@ -286,9 +286,6 @@ ul {
   background-color: #fe018a;
   padding: 70px 0px;
 }
-.sortable-wrap .bootcamp-start {
-  text-align: center;
-}
 .sortable-wrap .bootcamp-start h3 {
   color: #fff;
   font-size: 58px;
@@ -300,19 +297,27 @@ ul {
 }
 .sortable-wrap .bootcamp-start h1 {
   color: #fff;
-  font-size: 130px;
+  font-size: 80px;
   font-weight: bold;
   font-family: "Inter-Bold";
   text-transform: capitalize;
   margin-bottom: 0px;
   margin-top: 0px;
+  position: relative;
+  display: inline-block;
+}
+.sortable-wrap .bootcamp-start h1 span {
+  position: absolute;
+  width: 190px;
+  top: -30px;
+  right: -210px;
 }
 .sortable-wrap .bootcamp-start p {
   color: #fff;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: bold;
   text-transform: capitalize;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   margin-bottom: 0px;
 }
 
@@ -519,7 +524,22 @@ ul {
     font-size: 46px;
   }
   .sortable-wrap .bootcamp-start h1 {
-    font-size: 100px;
+    font-size: 60px;
+  }
+  .sortable-wrap .bootcamp-start h1 span {
+    position: absolute;
+    width: 150px;
+    right: -170px;
+  }
+  .sortable-wrap .bootcamp-start p {
+    font-size: 28px;
+  }
+  .sortable-wrap .price-btn a {
+    font-size: 28px;
+    padding: 20px 40px;
+  }
+  .subscribe-dec h2 {
+    font-size: 105px;
   }
 }
 
@@ -527,6 +547,9 @@ ul {
   .footer-section ul li a,
   .footer-section p {
     font-size: 14px;
+  }
+  .annual-membership .annual-membership-inner h2 {
+    font-size: 95px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -543,6 +566,10 @@ ul {
     font-size: 24px;
     padding: 12px 30px;
   }
+  .sortable-wrap .bootcamp-start .bootcamp-inner {
+    text-align: center;
+  }
+
   .sortable-wrap .bootcamp-start h1 {
     font-size: 80px;
   }
@@ -649,7 +676,9 @@ ul {
     margin-top: 20px;
   }
   .annual-membership .annual-membership-inner h3 {
-    font-size: 18px;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 0px;
   }
   .bootcamp-section .head-title h1,
   .head-title h1 {
@@ -685,14 +714,17 @@ ul {
   .story-section .stroy-wrap {
     border: none;
   }
+  .sortable-wrap .bootcamp-start .bootcamp-inner {
+    text-align: start;
+  }
   .subscribe-dec h1 {
     font-size: 50px;
   }
   .subscribe-dec h2 {
-    font-size: 95px;
+    font-size: 75px;
   }
   .subscribe-dec h3 {
-    font-size: 40px;
+    font-size: 35px;
   }
   .subscribe-dec p {
     font-size: 18px;
@@ -805,11 +837,18 @@ ul {
     letter-spacing: 2px;
   }
   .sortable-wrap .bootcamp-start h1 {
-    font-size: 65px;
+    font-size: 45px;
+  }
+  .sortable-wrap .bootcamp-start h1 span {
+    position: absolute;
+    width: 120px;
+    right: -130px;
+    top: -25px;
   }
   .sortable-wrap .bootcamp-start p {
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 1px;
+    margin-top: 10px;
   }
 
   .bootcamp-section ul li {
@@ -892,6 +931,16 @@ ul {
   .header-section .brand-logo {
     width: 150px;
   }
+  .sortable-wrap .bootcamp-start h1 {
+    font-size: 36px;
+  }
+  .sortable-wrap .bootcamp-start h1 span {
+    width: 100px;
+    right: -110px;
+  }
+  .annual-membership .annual-membership-inner h2 {
+    font-size: 36px;
+  }
 }
 @media only screen and (max-width: 374px) {
   .subscribe-dec h2 {
@@ -901,7 +950,25 @@ ul {
     font-size: 22px;
   }
   .sortable-wrap .bootcamp-start h1 {
-    font-size: 52px;
+    font-size: 36px;
+  }
+  .sortable-wrap .bootcamp-start h1 span {
+    width: 80px;
+    right: -90px;
+    top: -13px;
+  }
+  .sortable-wrap .bootcamp-start p {
+    font-size: 16px;
+  }
+  .sortable-wrap .price-btn a {
+    font-size: 24px;
+    padding: 15px 30px;
+    margin-top: 0px;
+  }
+  .annual-membership .annual-membership-inner .membership-btn a{
+    font-size: 24px;
+    padding: 15px 30px;
+    margin-top: 20px;
   }
   .sortable-wrap .bootcamp-start p {
     font-size: 20px;
