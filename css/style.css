@@ -121,16 +121,20 @@ ul {
 .banner-section .bg-web a {
   position: absolute;
   right: 50px;
-  bottom: 40px;
-  font-family: Horizon;
-  background-color: #ff3392;
+  bottom: 170px;
   color: #fff;
   border: none;
-  border-radius: 80px;
-  font-size: 44px;
+  font-size: 38px;
   text-transform: uppercase;
-  padding: 20px 35px;
-  line-height: 40px;
+  padding: 25px 55px;
+  font-weight: bold;
+  background-image: url(..//img/btn-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.banner-section .bg-web a:hover {
+  color: #3d393b;
 }
 .banner-section .bg-mobile {
   display: none;
@@ -138,19 +142,17 @@ ul {
 }
 .banner-section .bg-mobile a {
   position: absolute;
-
-  font-family: Horizon;
-  background-color: #ff3392;
+  background-image: url(..//img/btn-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   color: #fff;
   border: none;
-  border-radius: 80px;
   text-transform: uppercase;
-
-  right: 30px;
-  bottom: 30px;
-  font-size: 35px;
-  padding: 15px 30px;
-  line-height: 30px;
+  right: 10px;
+  bottom: 60px;
+  font-size: 18px;
+  padding: 12px 20px;
 }
 /* bootcamp-section */
 .bootcamp-section {
@@ -224,10 +226,6 @@ ul {
   text-align: center;
   /* min-height: 530px; */
 }
-/* .testimonials-box:hover {
-  background: #e00278;
-} */
-
 .testimonials-box .rate-img {
   margin-top: 10px;
 }
@@ -298,14 +296,15 @@ ul {
   font-family: Pandora;
   text-transform: capitalize;
   letter-spacing: 4px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 .sortable-wrap .bootcamp-start h1 {
   color: #fff;
   font-size: 130px;
   font-weight: bold;
+  font-family: "Inter-Bold";
   text-transform: capitalize;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   margin-top: 0px;
 }
 .sortable-wrap .bootcamp-start p {
@@ -365,6 +364,9 @@ ul {
   font-size: 48px;
   font-family: Inter-Bold;
   margin-top: -5px;
+}
+.annual-membership .annual-membership-inner h3 span {
+  text-transform: uppercase;
 }
 .annual-membership .annual-membership-inner .membership-btn a {
   color: rgb(255, 255, 255);
@@ -501,6 +503,13 @@ ul {
   .subscribe-dec h1 {
     font-size: 80px;
   }
+  .banner-section .bg-web a {
+    right: 30px;
+    bottom: 130px;
+    color: #fff;
+    font-size: 28px;
+    padding: 16px 40px;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .header-section {
@@ -508,6 +517,9 @@ ul {
   }
   .sortable-wrap .bootcamp-start h3 {
     font-size: 46px;
+  }
+  .sortable-wrap .bootcamp-start h1 {
+    font-size: 100px;
   }
 }
 
@@ -526,15 +538,16 @@ ul {
     margin: auto;
   }
   .banner-section .bg-web a {
-    right: 30px;
-    bottom: 30px;
-    font-size: 35px;
-    padding: 15px 30px;
-    line-height: 30px;
+    right: 10px;
+    bottom: 80px;
+    font-size: 24px;
+    padding: 12px 30px;
+  }
+  .sortable-wrap .bootcamp-start h1 {
+    font-size: 80px;
   }
   .sortable-wrap .bootcamp-start h3 {
-    display: flex;
-    flex-direction: column;
+    font-size: 36px;
   }
   .bootcamp-section .head-title {
     text-align: center;
@@ -555,7 +568,6 @@ ul {
   .border-two {
     margin-bottom: 0px;
   }
-
   .video-area iframe {
     border-radius: 20px;
     height: 420px;
@@ -564,7 +576,18 @@ ul {
     font-size: 80px;
   }
   .annual-membership .annual-membership-inner h3 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .subscribe-dec h2 {
+    font-size: 80px;
+  }
+  .sortable-wrap .price-btn a,
+  .annual-membership .annual-membership-inner .membership-btn a {
+    font-size: 38px;
+    padding: 16px 40px;
+  }
+  .sortable-wrap .bootcamp-start p {
+    font-size: 34px;
   }
   .story-section .stroy-wrap {
     padding: 0px;
@@ -594,12 +617,23 @@ ul {
   .web-view {
     display: none;
   }
-
   .banner-section .bg-web {
     display: none;
   }
   .banner-section .bg-mobile {
     display: block;
+  }
+  .testimonials-box p {
+    font-size: 20px;
+  }
+  .sortable-wrap .bootcamp-start h3 {
+    font-size: 28px;
+  }
+  .sortable-wrap .bootcamp-start h1 {
+    font-size: 60px;
+  }
+  .sortable-wrap .bootcamp-start p {
+    font-size: 28px;
   }
   .bootcamp-section .head-title p {
     font-size: 28px;
@@ -613,6 +647,9 @@ ul {
   .header-section .sec-img {
     width: 100%;
     margin-top: 20px;
+  }
+  .annual-membership .annual-membership-inner h3 {
+    font-size: 18px;
   }
   .bootcamp-section .head-title h1,
   .head-title h1 {
@@ -641,9 +678,6 @@ ul {
   .annual-membership .annual-membership-inner h2 {
     font-size: 60px;
   }
-  .annual-membership .annual-membership-inner h3 {
-    font-size: 30px;
-  }
   .story-section .stroy-wrap h4 {
     font-size: 14px;
     padding: 0px 0px;
@@ -655,7 +689,6 @@ ul {
     font-size: 50px;
   }
   .subscribe-dec h2 {
-    color: #fe018a;
     font-size: 95px;
   }
   .subscribe-dec h3 {
@@ -692,8 +725,9 @@ ul {
     padding: 10px 20px;
     line-height: 16px;
     right: 10px;
-    bottom: 20px;
+    bottom: 50px;
   }
+
   .subscribe-dec p span {
     margin-left: 0px;
     margin-right: 0px;
@@ -713,6 +747,11 @@ ul {
     font-size: 30px;
     padding: 15px 30px;
     margin-top: 20px;
+  }
+  .sortable-wrap .price-btn a {
+    font-size: 30px;
+    padding: 15px 30px;
+    margin-top: 10px;
   }
 }
 @media only screen and (max-width: 525px) {
@@ -762,12 +801,17 @@ ul {
     border-radius: 10px;
   }
   .sortable-wrap .bootcamp-start h3 {
-    font-size: 26px;
+    font-size: 20px;
+    letter-spacing: 2px;
   }
-  .sortable-wrap .price-btn a {
-    font-size: 36px;
-    padding: 15px 40px;
+  .sortable-wrap .bootcamp-start h1 {
+    font-size: 65px;
   }
+  .sortable-wrap .bootcamp-start p {
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+
   .bootcamp-section ul li {
     padding: 0px;
     font-size: 16px;
@@ -816,8 +860,7 @@ ul {
     font-size: 44px;
   }
   .subscribe-dec h2 {
-    color: #fe018a;
-    font-size: 80px;
+    font-size: 65px;
   }
   .subscribe-dec h3 {
     font-size: 30px;
@@ -852,7 +895,17 @@ ul {
 }
 @media only screen and (max-width: 374px) {
   .subscribe-dec h2 {
-    font-size: 60px;
+    font-size: 50px;
+  }
+  .subscribe-dec h3 {
+    font-size: 22px;
+  }
+  .sortable-wrap .bootcamp-start h1 {
+    font-size: 52px;
+  }
+  .sortable-wrap .bootcamp-start p {
+    font-size: 20px;
+    letter-spacing: 0px;
   }
   .subscribe-dec h1 {
     font-size: 36px;
@@ -863,5 +916,8 @@ ul {
   }
   .annual-membership .annual-membership-inner h2 {
     font-size: 35px;
+  }
+  .sortable-wrap .bootcamp-start h3 {
+    font-size: 18px;
   }
 }
